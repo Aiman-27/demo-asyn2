@@ -32,7 +32,7 @@ jobs:
         cmd: install # will run `yarn install` command
         
     - name: Build React App
-      run: sudo yarn run build
+      run: Sudo yarn run build
       
     - name: Install Surge
       run: npm install --global surge
