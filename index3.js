@@ -39,7 +39,7 @@ function prepareCoffee(){
 
 async function startProcess(){
     try {
-        let foodValue = await prepareFood(2);
+    let foodValue = await prepareFood(2);
     console.log("Food",foodValue);
     let frenchToastValue = await prepareFrenchToast();
     console.log("Toast",frenchToastValue);
